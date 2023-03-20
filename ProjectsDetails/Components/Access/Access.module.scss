@@ -1,0 +1,73 @@
+@import '../../../../styles/variables.scss';
+.tabWrapper {
+  width: 100%;
+  padding: 15px 0px;
+  .addProject {
+    margin-bottom: 20px;
+    .flexBox {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+    }
+    .radioGroup {
+      margin-right: 15px;
+    }
+    label {
+      margin-left: 7px;
+    }
+
+    .dropdownToggle {
+      color: #0c67fb !important;
+      padding-bottom: 15px !important;
+      padding-top: 5px !important;
+    }
+    .dropdownToggle::after {
+      content: unset !important;
+    }
+    .dropdownMenu {
+      max-height: 310px !important;
+      max-width: 310px !important;
+      padding: 5px !important;
+    }
+    .textbox {
+      width: 290px;
+      height: 40px;
+    }
+    .dropdownHeader {
+      font-size: medium;
+    }
+  }
+}
+
+.checkbox {
+  width: 16px !important;
+  height: 16px !important;
+}
+.label {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 250px;
+  margin: 8px;
+}
+
+.img {
+  max-width: 16% !important;
+  color: white !important;
+}
+
+.scrollbar {
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #0c67fb;
+  border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+@import '../../../../styles/variables.scss';
+.selectDropdown {
+  border: none !important;
+  padding: 0px !important;
+  width: 100% !important;
+  height: 38 !important;
+  position: relative !important;
+  white-space: pre-wrap !important;
+}
+.column {
+  padding: 8px !important;
+}
+.selectDropdownTd {
+  border: none !important;
+  padding: 0px !important;
+  width: 100% !important;
+  height: 38 !important;
+  position: relative !important;
+  white-space: pre-wrap !important;
+}
+.details {
+  display: flex !important;
+  align-items: center !important;
+}
+.tableData {
+  width: 60%;
+}
